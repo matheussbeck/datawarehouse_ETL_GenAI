@@ -1,0 +1,84 @@
+[0m21:34:33.403827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B45978DAC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B45978F590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B45978F4D0>]}
+
+
+============================== 21:34:33.410020 | 16de247a-ac5c-41ea-9513-03d3fd7d2f0d ==============================
+[0m21:34:33.410020 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:34:33.411025 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\mathe\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init vendas_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m21:34:33.432974 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/mathe/.dbt')}
+[0m21:34:33.433974 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m21:34:33.437194 [debug] [MainThread]: Starter project path: C:\Users\mathe\TheBeckDev\Projetos\Python\ETL_GenAI\datawarehouse_ETL_GenAI\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:34:33.460393 [info ] [MainThread]: 
+Your new dbt project "vendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:34:33.461508 [info ] [MainThread]: Setting up your profile.
+[0m21:42:23.236814 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F37B7B0D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F37E2DAC00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F37AAFD5E0>]}
+
+
+============================== 21:42:23.241720 | 1360b238-e998-49a9-85d8-1a1588d37525 ==============================
+[0m21:42:23.241720 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:42:23.242688 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\mathe\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init vendas_dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m21:42:23.268071 [info ] [MainThread]: A project called vendas_dbt already exists here.
+[0m21:42:23.270037 [debug] [MainThread]: Command `dbt init` succeeded at 21:42:23.270037 after 0.14 seconds
+[0m21:42:23.270037 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F37B7B0D70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F37D6CEE70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F37D91F920>]}
+[0m21:42:23.271070 [debug] [MainThread]: Flushing usage events
+[0m21:42:56.659631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E817E37B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8182EAC60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E8156D6B70>]}
+
+
+============================== 21:42:56.662974 | 67b6f77a-2a5c-47bd-bda7-220c2d090334 ==============================
+[0m21:42:56.662974 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:42:56.663974 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\mathe\\.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt init venda_dbt', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m21:42:56.689134 [debug] [MainThread]: Starter project path: C:\Users\mathe\TheBeckDev\Projetos\Python\ETL_GenAI\.venv\Lib\site-packages\dbt\include\starter_project
+[0m21:42:56.709135 [info ] [MainThread]: 
+Your new dbt project "venda_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:42:56.711880 [info ] [MainThread]: Setting up your profile.
+[0m21:52:27.851860 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDC2F2D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDC31E0CE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FDC30C2CC0>]}
+
+
+============================== 21:52:27.857876 | 0d8ccce4-16bf-469c-9d3a-da3f232a215d ==============================
+[0m21:52:27.857876 [info ] [MainThread]: Running with dbt=1.8.6
+[0m21:52:27.858871 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\mathe\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init vendas_dbt', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m21:52:27.911751 [debug] [MainThread]: Starter project path: C:\Users\mathe\AppData\Local\Programs\Python\Python312\Lib\site-packages\dbt\include\starter_project
+[0m21:52:27.946826 [info ] [MainThread]: 
+Your new dbt project "vendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:52:27.946826 [info ] [MainThread]: Setting up your profile.
